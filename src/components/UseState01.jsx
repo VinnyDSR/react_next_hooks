@@ -1,5 +1,5 @@
+import React from "react";
 import { useState } from "react";
-
 export default () => {
     const[valor, setValor] = useState(0);
 
