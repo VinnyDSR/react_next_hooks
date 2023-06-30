@@ -4,7 +4,7 @@ export default({funcao})  => {
 
     return(
         <>
-            <button onClick={funcao}>Atualizar</button>
+            <button onClick={funcao(10)}>Atualizar</button>
         </>
     )
 }
